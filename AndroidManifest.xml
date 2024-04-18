@@ -210,10 +210,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-	<activity
-	    android:name=".hentai_header"
-	    android:label="Hentai - Header" >
-	    <intent-filter>
+        <activity
+            android:name=".hentai_header"
+            android:label="Hentai - Header"
+            android:exported="false" >
+            <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -221,7 +222,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	</activity>
         <activity
             android:name=".anime_girl"
-            android:label="Anime Girls" >
+            android:label="Anime Girls"
+            android:exported="false" >
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />
